@@ -3,10 +3,11 @@
 const isProd = process.env.NODE_ENV === 'production'
 
 const nextConfig = {
-  assetPrefix: isProd ? '/website/' : '',
   images: {
-    unoptimized: true,
+    loader: 'akamai',
+    path: '',
   },
+  assetPrefix: './',
 }
 
 module.exports = nextConfig
