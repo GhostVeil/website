@@ -3,6 +3,11 @@
 
 name: GitHub Pages deploy
 
+permissions:
+  actions: write
+  deployments: write
+  packages: write
+
 on:
   push:
     branches: [main]
