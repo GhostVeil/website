@@ -12,7 +12,7 @@ export default function Home() {
       <div className="relative flex place-items-center flex-col">
         <Image
           className="relative"
-          src="/GhostVeil.png"
+          src="./GhostVeil.png"
           alt="GhostVeil Logo"
           width={400}
           height={400}
