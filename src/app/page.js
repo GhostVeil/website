@@ -1,3 +1,4 @@
+"use client";
 import Image from "next/image";
 import { Montserrat } from "next/font/google";
 import { GoogleAnalytics } from "nextjs-google-analytics";
