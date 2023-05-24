@@ -11,7 +11,7 @@ export default function Home() {
     <main className="flex min-h-screen flex-col items-center justify-between p-24 bg-ghost-black">
       <div className="relative flex place-items-center flex-col">
         <Image
-          className="relative rounded-full bg-ghost-black--glow shadow-[0_0_60px_30px_#2a2a2a,0_0_100px_60px_#1a1a1a,0_0_140px_90px_#161616]"
+          className="relative rounded-full bg-ghost-black--glow shadow-[0_0_100px_-30px_#191919,0_0_110px_30px_#1c1c1c,0_0_120px_0px_#1f1f1f]"
           src="./logo.png"
           alt="GhostVeil Logo"
           width={400}

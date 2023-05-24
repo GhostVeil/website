@@ -14,7 +14,7 @@ module.exports = {
       },
       colors: {
         'ghost-black': '#161616',
-        'ghost-black--glow': "#2a2a2a",
+        'ghost-black--glow': "#1a1a1a",
       }
     },
   },
