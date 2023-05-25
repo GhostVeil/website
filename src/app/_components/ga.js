@@ -1,7 +1,7 @@
 "use client";
 import Script from "next/script";
 
-export default ({ trackingId }) => {
+export default function GoogleAnalytics({ trackingId }) {
   return (
     <>
       <Script
@@ -19,4 +19,4 @@ export default ({ trackingId }) => {
       </Script>
     </>
   );
-};
+}
