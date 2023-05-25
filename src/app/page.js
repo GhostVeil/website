@@ -1,7 +1,6 @@
 "use client";
 import Image from "next/image";
 import { Montserrat } from "next/font/google";
-import { GoogleAnalytics } from "nextjs-google-analytics";
 
 const font = Montserrat({
   weight: "100",
@@ -11,7 +10,6 @@ const font = Montserrat({
 export default function Home() {
   return (
     <>
-      <GoogleAnalytics trackPageViews />
       <main className="flex min-h-screen flex-col items-center justify-between p-24 bg-ghost-black">
         <div className="relative flex place-items-center flex-col">
           <Image
