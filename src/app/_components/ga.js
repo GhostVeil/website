@@ -2,7 +2,6 @@
 import Script from "next/script";
 
 export default ({ trackingId }) => {
-  console.log('DOING IT WITH ID', trackingId)
   return (
     <>
       <Script
